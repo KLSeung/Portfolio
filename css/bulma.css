@@ -7187,7 +7187,10 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar {
     min-height: 3.25rem;
-    border-bottom: 7px double #696969;
+    padding-top: 20px;
+    padding-bottom: 35px;
+   
+    border-bottom: 5px solid #696969;
   }
   .navbar.is-spaced {
     padding: 1rem 2rem;
@@ -7262,8 +7265,9 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar-end {
     justify-content: flex-end;
-    margin-left: auto;
-    margin-right: 100px;
+    margin-left: end;
+    margin-right: 130px;
+    font-size: 20px "Arial Black" !important;
   }
   .navbar-dropdown {
     background-color: white;
@@ -10606,5 +10610,10 @@ label.panel-block:hover {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
 }
 /*# sourceMappingURL=bulma.css.map */
