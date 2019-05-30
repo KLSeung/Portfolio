@@ -7051,6 +7051,15 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   flex-shrink: 0;
 }
 
+.navbar-item.is-logo {
+    position: absolute;
+    left: 50%;
+    margin-left:-63px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
 .navbar-item img {
   max-height: 1.75rem;
 }
@@ -7178,6 +7187,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar {
     min-height: 3.25rem;
+    border-bottom: 7px double #696969;
   }
   .navbar.is-spaced {
     padding: 1rem 2rem;
