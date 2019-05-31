@@ -6272,7 +6272,6 @@ a.list-item {
 
 .navbar {
   background-color: white;
-  min-height: 3.25rem;
   position: relative;
   z-index: 30;
 }
@@ -6924,7 +6923,7 @@ a.list-item {
 }
 
 .navbar.is-fixed-top {
-  top: 0;
+	top: 0;
 }
 
 html.has-navbar-fixed-top,
@@ -7181,15 +7180,16 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar,
   .navbar-menu,
   .navbar-start,
+  .navbar-center,
   .navbar-end {
     align-items: stretch;
     display: flex;
   }
   .navbar {
+    height: 9rem !important;
     min-height: 3.25rem;
-    padding-top: 20px;
-    padding-bottom: 35px;
-   
+    padding-top: 40px;
+    padding-bottom: 0px;
     border-bottom: 5px solid #696969;
   }
   .navbar.is-spaced {
@@ -7262,6 +7262,18 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar-start {
     justify-content: flex-start;
     margin-right: auto;
+    margin-left: 130px;
+   }
+
+  .navbar-center {
+    justify-content: flex-start;
+    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    margin-left:-100px;
+    height: 65%;
+    display:flex;
+    align-items: center;"
   }
   .navbar-end {
     justify-content: flex-end;
@@ -10599,7 +10611,8 @@ label.panel-block:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  .section.is-medium {
+  .section.is-medium {  flex-grow: 1;
+  flex-shrink: 0;
     padding: 9rem 1.5rem;
   }
   .section.is-large {
@@ -10616,4 +10629,10 @@ label.panel-block:hover {
     display: block;
     margin: 0 auto;
 }
+
+#skills {
+    padding: 12rem 3rem 1.5rem 1.5rem;
+}
+	
+	
 /*# sourceMappingURL=bulma.css.map */
