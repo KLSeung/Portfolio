@@ -7273,7 +7273,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     margin-left:-100px;
     height: 65%;
     display:flex;
-    align-items: center;"
+    align-items: center;
   }
   .navbar-end {
     justify-content: flex-end;
@@ -10630,9 +10630,69 @@ label.panel-block:hover {
     margin: 0 auto;
 }
 
-#skills {
-    padding: 12rem 3rem 1.5rem 1.5rem;
+#skills{
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 100px;
+
 }
-	
-	
+
+.scroll-icon{
+	width: 220px;
+   	display: block;
+    	margin: 0 auto;
+}
+
+#skills-container{
+	padding-bottom: 150px;
+}	
+
+#projects{
+	padding-top: 300px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+#home{
+	padding-right: 50px;
+	padding-top: 300px;
+	margin-left:150px;
+}
+
+.projects-container{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	margin: 0px 150px 150px 150px;
+	padding-bottom: 300px;
+	background-color: #d6d7d8;
+	border: 2px hidden;
+	border-radius: 25px;
+}
+
+.projects-items{
+	display: inline-block;
+	text-align:center;
+	padding: 50px 80px;
+	margin-top: 50px;
+}
+
+#contact{
+	padding-top: 300px;
+	padding-bottom: 60px;
+	text-align:center;
+}
+
+.contact-container{
+	width: 11%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	white-space: nowrap;
+}
+
+.contact-info{
+	display: inline-block;
+	padding: 0px 13px;
+}
+
 /*# sourceMappingURL=bulma.css.map */

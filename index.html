@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -38,16 +39,16 @@
 			<img src="img/Kevin Lee.png" alt="logo">
 		</div>
 		<div class="navbar-end">	
-				<a class="navbar-item has-text-black">SKILLS</a>
-				<a class="navbar-item has-text-black">PROJECTS</a>	
-				<a class="navbar-item has-text-black">CONTACT ME</a>
+				<a class="navbar-item has-text-black" href="#skills">SKILLS</a>
+				<a class="navbar-item has-text-black" href="#projects">PROJECTS</a>	
+				<a class="navbar-item has-text-black" href="#contact">CONTACT ME</a>
 			</div>
 		</div>
 	</nav>
 </header>
 	
-	<section class="section is-medium has-margin-top-100 has-margin-right-50">
-			<div class="columns has-margin-left-100">
+	<section id="home">
+			<div class="columns">
 				<div class="column is-three-fifths has-margin-top-60">
 					<h1 class="title is-1 is-spaced">Hi.</h1>
 					<h5 class="subtitle is-4">
@@ -58,16 +59,17 @@
 						<img src="img/MacBook.jpg" class="is-circular" alt="MacBook" height="470px" width="470px">
 				</div>
 			</div>
-			<div class="has-text-centered">
+	</section>
+	<section class="section is-small">
+			<div class="scroll-icon">
 				<a href="#skills"><img src="img/scroll.png" alt="scroll down"></a>
 			</div>
 	</section>
 
-	<section id = "skills">
-		<div class="title is-2 has-text-centered">Skills</div>
+	<section id="skills">
+		<div class="title is-2">Skills</div>
 	</section>
-	
-	<section class="section is-small">
+	<section id="skills-container">
 		<div class="columns">
 			<div class="column is-one-fifths">
 				<img src="img/js.jpg" class="img-center" alt="javascript" height="200px" width="200px">
@@ -86,6 +88,46 @@
 			</div>
 		</div>
 	</section>
+	<section class="section is-small">
+			<div class="scroll-icon">
+				<a href="#projects"><img src="img/scroll.png" alt="scroll down"></a>
+			</div>
+	</section>	
+
+	<section id="projects">
+		<div class="title is-2">Projects</div>
+	</section>
+	<div class="projects-container">
+		<div class="projects-items">Project 1</div>
+		<div class="projects-items">Project 2</div>
+		<div class="projects-items">Project 3</div>
+		<div class="projects-items">Project 4</div>
+		<div class="projects-items">Project 5</div>
+		<div class="scrollbar">
+            		<div class="force-overflow"></div>
+        	</div> 
+	</div>
+	
+	<section id="contact">
+		<div class="title is-2">Contact Me</div>
+	</section>
+	<section class="contact-container">
+		<div class="contact-info">
+			<i class="fa fa-phone"></i>
+		</div>
+		<div class="contact-info"> +1 647-989-6246</div>	
+	</section>
+
+	<section class="contact-container">
+		<div class="contact-info">
+			<i class="fa fa-envelope"></i>
+		</div>
+		<div class="contact-info"> kevin.skyulee@gmail.com</div>	
+	</section>
+	
+
+
+
 
 		
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
