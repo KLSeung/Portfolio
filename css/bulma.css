@@ -10644,11 +10644,11 @@ label.panel-block:hover {
 }
 
 #skills-container{
-	padding-bottom: 150px;
+	padding-bottom: 185px;
 }	
 
 #projects{
-	padding-top: 300px;
+	padding-top: 250px;
 	padding-bottom: 100px;
 	text-align: center;
 }
@@ -10657,15 +10657,16 @@ label.panel-block:hover {
 	padding-right: 50px;
 	padding-top: 300px;
 	margin-left:150px;
+	padding-bottom: 110px;
 }
 
 .projects-container{
 	overflow-x: scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
-	margin: 0px 150px 150px 150px;
+	margin: 0px 150px 0px 150px;
 	padding-bottom: 300px;
-	background-color: #d6d7d8;
+	background-color: #e3e5e8;
 	border: 2px hidden;
 	border-radius: 25px;
 }
@@ -10678,21 +10679,43 @@ label.panel-block:hover {
 }
 
 #contact{
-	padding-top: 300px;
+	padding-top: 400px;
 	padding-bottom: 60px;
 	text-align:center;
 }
 
-.contact-container{
-	width: 11%;
-	margin: 0 auto;
+
+.contact-info-container{
 	padding-bottom: 30px;
 	white-space: nowrap;
 }
 
+#contact-container{
+	position: absolute;
+	left: 43%; 
+	padding: 30px 0px 0px 30px;
+	background-color: #e3e5e8;
+	border: 2px hidden;
+	border-radius: 25px;
+	margin-bottom: 500px;
+
+
+}
+
 .contact-info{
 	display: inline-block;
-	padding: 0px 13px;
+	padding-right: 15px;
+	padding-left: 5px;
+
+}
+
+#to-top{
+	margin-top: 470px;
+	margin-bottom: 150px;
+}
+
+.to-top-text{
+	text-align:center;
 }
 
 /*# sourceMappingURL=bulma.css.map */
