@@ -7262,7 +7262,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar-start {
     justify-content: flex-start;
     margin-right: auto;
-    margin-left: 130px;
+    margin-left: 60px;
    }
 
   .navbar-center {
@@ -7278,7 +7278,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar-end {
     justify-content: flex-end;
     margin-left: end;
-    margin-right: 130px;
+    margin-right: 60px;
     font-size: 20px "Arial Black" !important;
   }
   .navbar-dropdown {
@@ -10607,7 +10607,7 @@ label.panel-block:hover {
 }
 
 .section {
-  padding: 3rem 1.5rem;
+  padding: 3rem 4.5rem 3rem 4.5rem !important;
 }
 
 @media screen and (min-width: 1024px) {
@@ -10643,9 +10643,6 @@ label.panel-block:hover {
     	margin: 0 auto;
 }
 
-#skills-container{
-	padding-bottom: 185px;
-}	
 
 #projects{
 	padding-top: 250px;
@@ -10653,11 +10650,8 @@ label.panel-block:hover {
 	text-align: center;
 }
 
-#home{
-	padding-right: 50px;
-	padding-top: 300px;
-	margin-left:150px;
-	padding-bottom: 110px;
+.home{
+	padding-top: 300px !important;
 }
 
 .projects-container{
@@ -10717,6 +10711,13 @@ label.panel-block:hover {
 
 .to-top-text{
 	text-align:center;
+}
+
+.is-centered{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /*# sourceMappingURL=bulma.css.map */
