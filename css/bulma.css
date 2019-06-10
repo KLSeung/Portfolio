@@ -10704,12 +10704,10 @@ label.panel-block:hover {
 
 }
 
-#to-top{
-	margin-top: 470px;
-	margin-bottom: 150px;
-}
 
 .to-top-text{
+  margin-top: 270px;
+  margin-bottom: 50px;
 	text-align:center;
 }
 
